@@ -1,0 +1,48 @@
+#header
+{
+    background-color: lightgray;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+h1
+{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+#col_left
+{
+    /*background-color: red;*/
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#main
+{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#col_rigth
+{
+    /*background-color: red;*/
+    background-color: #00BFFF;
+    padding:20px;
+}
+
+.buttons
+{
+    background-color: #00BFFF;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.links
+{
+    position: relative;
+    top: 30%;
+    left: 1%;
+}
