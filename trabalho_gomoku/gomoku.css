@@ -1,0 +1,35 @@
+#matriz_gomoku
+{
+    width: 650px;
+}
+
+#regras
+{
+    width: 800px;
+    text-align: justify;
+}
+
+#new_game
+{
+    float: inline-end;
+}
+
+.jogador
+{
+    text-align: center;
+}
+
+.peca
+{
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+    float: left;
+    border: 0px;
+}
+
+fieldset
+{
+    width: 150px;
+    text-align: center;
+}

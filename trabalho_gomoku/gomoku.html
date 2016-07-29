@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Gomoku</title>
+        <link rel="stylesheet" type="text/css" href="gomoku.css"/>
+    </head>
+    <body>
+        <div id="regras_gomoku">
+            <h1>GOMOKU</h1>
+            <p id="regras">
+                O Gomoku, também conhecido como Gobang, é um jogo de tabuleiro estratégico tradicionalmente jogado com peças de Go (peças negras e brancas) em um tabuleiro de Go ligeiramente modificado (15x15 interseções). No entanto, ao contrario deste, uma vez que as peças são colocadas não podem ser movidas ou retiradas do tabuleiro. No inicio do jogo, as negras começam, e os jogadores alternam na colocação de uma pedra da sua cor em uma interseção vazia. O vencedor é o primeiro jogador a obter uma linha ininterrupta de cinco pedras na horizontal, vertical ou diagonal.
+            </p>
+            <fieldset>
+                <legend>Jogadores</legend>
+                <div class="jogador"><img class="peca" src="_imgs/o_branco.png"/><p>Jogador 1</p></div><br>
+                <div class="jogador"><img class="peca" src="_imgs/o_preto.jpg"/><p>Jogador 2</p></div>
+            </fieldset>
+        </div>
+        <br>
+        <input id="new_game" type="button" value="Novo Jogo" />
+        <br>
+        <br>
+        <div id="matriz_gomoku">
+        </div>
+    </body>
+    <script type="text/javascript" src="gomoku.js"></script>
+</html>

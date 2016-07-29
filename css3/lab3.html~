@@ -8,7 +8,7 @@
     </head>
     <body>
         <div id="header">
-            <!--<h1>Instituto de Computação</h1>-->
+            <h1>Instituto de Computação</h1>
         </div>
         <div id="body">
             <div id="col_left"><!--
