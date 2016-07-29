@@ -102,5 +102,45 @@ function verifica_vencedor()
         }
     }
 
+    for(i = 0; i < 11; i++)
+    {
+        for(j = 0; j < 11; j++)
+        {
+            if((gomoku[i][j] == 0)
+            && (gomoku[i + 1][j + 1] == 0)
+            && (gomoku[i + 2][j + 2] == 0)
+            && (gomoku[i + 3][j + 3] == 0)
+            && (gomoku[i + 4][j + 4] == 0))
+                return 0;
+
+            else if((gomoku[i][j] == 1)
+            && (gomoku[i + 1][j + 1] == 1)
+            && (gomoku[i + 2][j + 2] == 1)
+            && (gomoku[i + 3][j + 3] == 1)
+            && (gomoku[i + 4][j + 4] == 1))
+                return 1;
+        }
+    }
+
+    for(i = 0; i < 11; i++)
+    {
+        for(j = 4; j < 15; j++)
+        {
+            if((gomoku[i][j] == 0)
+            && (gomoku[i + 1][j - 1] == 0)
+            && (gomoku[i + 2][j - 2] == 0)
+            && (gomoku[i + 3][j - 3] == 0)
+            && (gomoku[i + 4][j - 4] == 0))
+                return 0;
+
+            else if((gomoku[i][j] == 1)
+            && (gomoku[i + 1][j - 1] == 1)
+            && (gomoku[i + 2][j - 2] == 1)
+            && (gomoku[i + 3][j - 3] == 1)
+            && (gomoku[i + 4][j - 4] == 1))
+                return 1;
+        }
+    }
+
     return -1;
 }
